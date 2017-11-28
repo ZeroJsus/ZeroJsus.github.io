@@ -1,43 +1,90 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#站点默认配置
-title: ZeroJsus
-email: f723706588@qq.com
-description: >- # this means to ignore newlines until "baseurl:"
-    This site used to ZeroJsus Blog Writing.
-url: "ZeroJsus.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  ZeroJsus
+title:            ZeroJsus
+description:      一个用于分享的笔记小站
+disqus_shortname: 
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
 
-#编译选项
-#future: TRUE #用将来的日期发布文章
-#lsi: TRUE #为相关文章生成索引
-#limit_posts: 10 #限制文章的数量
+# Owner/author information
+owner:
+  name:           ZeroJsus
+  avatar:         avatar.jpg
+  bio:            "ZeroJsus的开发笔记站，生活、代码、还有美食。"
+  email:          f723706588@qq.com
+  # Social networking links used in footer. Update and remove as you like.
+  #twitter:        
+  #facebook:       
+  github:         https://github.com/ZeroJsus 
+  #stackexchange:  
+  linkedin:       http://www.linkedin.com/in/zerojsus/
+  #instagram:      
+  #flickr:         
+  #tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  #google_plus:
 
-#服务选项
-#port: PORT #监听所给的端口
-#host: HOSTNAME #监听所给的主机名
-baseurl: "" #网站的根路径
-#detach: BOOL #是否从终端命令中分离出来 
+# Background image to be tiled on all pages
+background: 
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
+# Analytics and webmaster tools stuff goes here
+#google_analytics:   
+#google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:         
+livereload: true
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#timezone:    China
+future:      false  # publish future dated posts --  true, false (default) 
+highlighter: rouge
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
   - jekyll-feed
+  - jekyll-livereload
+sass:
+  sass_dir: _sass
+  style: compressed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+include: 
+  - .htaccess
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
