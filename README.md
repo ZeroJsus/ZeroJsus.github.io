@@ -1,2 +1,2 @@
 # ZeroJsus.github.io
-zerojsus blog
+this blog is build by jekyll
