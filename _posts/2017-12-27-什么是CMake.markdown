@@ -7,13 +7,13 @@ categories: blog
 
 一、什么是CMake
 1.1 常用的CMake指令
-{% highlight %}
+{% highlight linux %}
 cmake [<选项>] (<资源路径> | <打包地址>)
 cmake [(-D <var>=<value>)...] -P <cmake脚本文件>
 cmake --build <目录> [<选项>...] [-- <构建工具选项>...]
 cmake -E <命令> [<选项>...]
 cmake --find-package <选项>...
-{% endhightlight %}
+{% endhighlight %}
 
 1.2 描述
 "cmake"命令是Cmake的命令行接口。通过它可以使用脚本来配置一个项目。项目配置的设置可以使用 -D 选项来进行配置。
@@ -22,19 +22,19 @@ CMake是一个跨平台的构建生成器。通过名为CMakeLists.txt的文件�
 二、什么是构建系统
 构建系统的需求是随着软件规模的增大而提出的。如果只是做软件编程训练，通常代码量比较小，编写的源代码只有几个文件。比如你编写了一段代码放入helloworld.c文件中，要在编译这段代码，只需要执行以下命令：
 
-{% hightlight c %}
+{% highlight c %}
 node helloworld.c
-{% endhightlight %}
+{% endhighlight %}
 
 当软件规模逐渐增加，这时可能有几十个源代码文件，而且有了模块划分，有的要编译成静态库，有的要编译成动态库，最后链接成可执行代码，这时命令行方式就捉襟见肘，需要一个构建系统。常见的构建系统有GNU Make。需要注意的是，构建系统并不是取代gcc这样的工具链，而是定义编译规则，最终还是会调用工具链编译代码。
 
 当软件规模进一步扩大，特别是有多平台支持需求的时候，编写GNU Makefile将是一件繁琐和乏味的事情，而且极容易出错。这时就出现了生成Makefile的工具，比如cmake、AutoMake等等，这种构建系统称作元构建系统（meta build system）。在Linux上软件仓库的概念还没有普及的时候，通常我们安装软件的步骤是：
 
-{% hightlight linux %}
+{% highlight linux %}
 ./configure
 make
 make install
-{% endhightlight %}
+{% endhighlight %}
 第一步就是调用AutoTool工具，根据系统环境（Linux的版本众多，软件安装情况也不一样），生成GNU Makefile。
 
 三、更多的构建工具
