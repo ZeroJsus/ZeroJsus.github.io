@@ -3,6 +3,7 @@ layout: post
 title: '如何搭建Jekyll博客'
 date: 2017-11-28 08:00:00 +0800
 categories: blog
+tags: '教程'
 ---
 
 1.创建一个仓库
