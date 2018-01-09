@@ -40,7 +40,7 @@ make install
 第一步就是调用AutoTool工具，根据系统环境（Linux的版本众多，软件安装情况也不一样），生成GNU Makefile。
 
 三、更多的构建工具
-...and so on
+[xmake] [lua]
 
 [home page]:https://cmake.org
 [Wiki]:https://cmake.org/Wiki/CMake_FAQ
