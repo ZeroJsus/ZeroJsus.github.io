@@ -1,0 +1,9 @@
+---
+layout: post
+title: 'weekly01'
+date: 2018-2-11 08:00:00 +0800
+categories: blog
+tags: '周记'
+---
+
+met属性Shrink-to-fit(自适应宽度)
