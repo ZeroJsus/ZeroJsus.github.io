@@ -19,6 +19,8 @@ css主题更换 更换class来更换主题所造成的页面重绘 带来的页�
 
 IIS进行请求重定向 需要安装ARR和URL Rewrite插件 php支持需要安装PHP Manager插件 遇到版本不支持安装的时候 需要修改对应注册表中的版本信息
 
+bootstrap table 快速构建分页表格带查询等功能的插件 
+
 现在前端VR开发已经 趋于成熟
 
-WebGL WebWorker WebRTC ServerWorker 是18年主要要学习的技术
+WebGL WebWorker WebRTC ServerWorker Promise是18年主要要学习的技术
