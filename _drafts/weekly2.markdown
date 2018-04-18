@@ -17,4 +17,4 @@ ci: Gitlab Docker+Drone
 
 使用html5获取的用户位置信息 因为国内已经将google墙了所以获取不到对应的信息 对应接口是navigator.geolocation.getCurrentPosition(succfn,errfn,option) option三个选项分别是控制精准度，查找的超时时间以及上一次获取地址的缓存有效时间
 
-
+jQury中的移动端适配组件库 sui build with taobao
