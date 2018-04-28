@@ -18,3 +18,8 @@ ci: Gitlab Docker+Drone
 使用html5获取的用户位置信息 因为国内已经将google墙了所以获取不到对应的信息 对应接口是navigator.geolocation.getCurrentPosition(succfn,errfn,option) option三个选项分别是控制精准度，查找的超时时间以及上一次获取地址的缓存有效时间
 
 jQury中的移动端适配组件库 sui build with taobao
+
+page Visibly scrollIntoView--> 是否还存在
+
+document事件visibilitychange用于监听当前浏览器是不是打开的这个标签，
+document.hidden 用于判断当前页面是不是浏览器中正在显示的页面    
