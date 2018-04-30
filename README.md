@@ -1,2 +1,6 @@
-# ZeroJsus.github.io
-this blog is build by jekyll
+# ZeroJsus的个人博客
+
+>用于记录个人在工作学习中的新知识点
+>
+>仅做为个人需要学习的知识点的标记
+>
