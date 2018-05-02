@@ -23,3 +23,5 @@ Generators生成器 Iterators迭代器的掌握不熟练
 记住 函数默认参数可以用于做参数验证
 
 implements?
+
+类Iterators都可以使用Array.from转化成数组
