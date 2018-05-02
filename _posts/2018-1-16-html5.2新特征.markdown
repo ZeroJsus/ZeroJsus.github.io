@@ -6,7 +6,7 @@ categories: blog
 tags: '趋势'
 ---
 
-一、新增标签<Dialog>以及用于支付的iframe属性allowpaymentrequest
+一、新增标签`<Dialog>`以及用于支付的iframe属性allowpaymentrequest
     ![Dialog样式]('./../images/posts/18-1-16-12-00')
     <!-- open属性是用来打开dialog对话框的 -->
     `<dialog open>`
@@ -14,8 +14,6 @@ tags: '趋势'
         `<P>Dialog Content</P>`
     `</dialog>`
     `<iframe allowpaymentrequest></iframe>`
-
-
 
 二、细节改进
 
