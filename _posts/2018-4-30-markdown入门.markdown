@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '使用markdown入门'
-date: 2018-3-14 23:00:00 +0800
+date: 2018-4-30 23:00:00 +0800
 categories: blog
 tags: '迭代'
 ---
