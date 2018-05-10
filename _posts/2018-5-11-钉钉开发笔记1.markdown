@@ -1,0 +1,14 @@
+---
+layout: post
+title: '钉钉开发笔记1'
+date: 2018-5-11 23:00:00 +0800
+categories: blog
+tags: '新技术'
+---
+###前言 因为项目需求 开始研究 钉钉的开发
+
+1.  注册自己的账号成为钉钉企业
+2.  通过CropID和CropSecret获取企业的Access_Token
+3.  获取对应CropSecret可以获取的数据的授权范围
+4.  钉钉 对应人 人对应Secret Secret对应权限部门和人 然后增删改相应的数据
+5.  
