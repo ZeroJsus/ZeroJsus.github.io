@@ -43,10 +43,13 @@ make install
 
 [xmake] and [lua]
 
-[home page]:https://cmake.org
-[Wiki]:https://cmake.org/Wiki/CMake_FAQ
-[doc]:https://cmake.org/documentation
-[mail]:https://cmake.org/mailing-lists
-[KDE]:https://baike.baidu.com/item/KDE/5108022?fr=aladdin
-[xmake]:http://xmake.io/cn/
-[lua]:https://baike.baidu.com/item/lua/7570719?fr=aladdin
+[home page](https://cmake.org)
+[Wiki](https://cmake.org/Wiki/CMake_FAQ)
+[doc](https://cmake.org/documentation)
+[mail](https://cmake.org/mailing-lists)
+[KDE](https://baike.baidu.com/item/KDE/5108022?fr=aladdin)
+[xmake](http://xmake.io/cn/)
+[lua](https://baike.baidu.com/item/lua/7570719?fr=aladdin)
+
+
+###注意 目前构建环境不要使用其他构建工具

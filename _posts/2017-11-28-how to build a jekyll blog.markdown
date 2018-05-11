@@ -29,3 +29,5 @@ tags: '教程'
 此blog的[GitHub]地址
 
 [Github]: https://github.com/ZeroJsus/ZeroJsus.github.io
+
+##注意 在家中环境可以正常运行 没必要在其他地方搭建相同环境浪费时间

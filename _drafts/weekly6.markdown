@@ -41,3 +41,13 @@ window.attachEvent是针对IE浏览器中的事件绑定其中的事件名称需
 document.activeElement document.hasFocus
 
 //  HTMLInputElement.setSelectionRange prop=(begin,end) 获取当前获取焦点的input对象中的取值的范围
+
+
+css 
+[box-orient](https://developer.mozilla.org/en-US/docs/Web/CSS/box-orient) 指定元素在水平和竖直方向的排列方式 
+[display:box](https://www.zhihu.com/question/22991944) 与flex的差异?
+[line-clamp](https://caniuse.com/#search=line-clamp) 多行文本省略的新属性 目前在移动端的兼容性比在pc端的兼容性要好很多
+[阿里云line-clamp讲解](https://www.aliyun.com/jiaocheng/636050.html)
+[css参考手册line-clamp讲解](http://www.css88.com/book/css/webkit/text/line-clamp.htm)
+
+python jupyter
