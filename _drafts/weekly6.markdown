@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'weekly4'
+title: 'weekly6'
 date: 2018-5-14 08:00:00 +0800
 categories: blog
 tags: '知识周报'
@@ -51,3 +51,5 @@ css
 [css参考手册line-clamp讲解](http://www.css88.com/book/css/webkit/text/line-clamp.htm)
 
 python jupyter
+
+excel开始支持javascript
