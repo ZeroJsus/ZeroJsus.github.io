@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '钉钉开发笔记1'
+title: '钉钉开发笔记'
 date: 2018-5-11 23:00:00 +0800
 categories: blog
 tags: '新技术'
@@ -13,4 +13,7 @@ tags: '新技术'
 4.  钉钉 对应人 人对应Secret Secret对应权限部门和人 然后增删改相应的数据
 5.  微应用直接在对应企业的应用中心 直接添加
 
-###针对钉钉客户端开发 等到需求的时候再继续
+###针对钉钉客户端开发(与微信开发相同)
+1.  通过Access_Token获取对应的JSApi_ticket
+2.  通过JSApi_ticket在JDK调用处配置JDK调用
+3.  配置成功之后调用JDK中的对应方法来执行对应的参数

@@ -15,3 +15,9 @@ tags: '知识周报'
 6.  arr.filter(callback) //处理数组使数组只返回满足callback条件的内容
 7.  arr.map(callback) //对数组中所有的值都进行callback操作 返回一个每个arr中的值都被处理过后的新数组
 8.  arr.reduce(callback) //callback中可以指定让数组中对应数值进行操作的方法
+
+iframe熟悉 iframe加载完成后执行的事件onload只能获取到对应iframe中全局的对象或者window.onload之后的对象
+iframe中的属性有 contentWindow 获取目标iframe中的Window对象 => 只能获取到
+                contentDocument 获取目标iframe中的Document对象
+
+[Sass语法复习](https://www.sass.hk/docs/#t7-3-6)

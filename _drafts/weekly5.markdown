@@ -18,3 +18,5 @@ tags: '知识周报'
 webpack基础知识复习，进阶学习中
 当前框架能否进入多语言 能 vue-i18n
 
+[js事件队列的解析](https://juejin.im/post/5aa8a07cf265da238a3022a4)
+
