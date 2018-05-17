@@ -21,7 +21,7 @@ p标签的限制对应行数 超出省略
 >  overflow:hidden;
 >}
 
-[设置对应浏览器内核的滚动条样式](https://www.lyblog.net/detail/314.html) --> 代码实现参照我的codepen
+[设置对应浏览器内核的滚动条样式](https://www.lyblog.net/detail/314.html) --> 代码实现参照我的codepen chrome支持最好 其他基本不支持
 
 通过不同浏览器对事件的支持情况对事件进行处理
 例:
