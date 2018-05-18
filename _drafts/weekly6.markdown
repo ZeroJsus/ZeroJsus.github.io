@@ -24,6 +24,7 @@ p标签的限制对应行数 超出省略
 [设置对应浏览器内核的滚动条样式](https://www.lyblog.net/detail/314.html) --> 代码实现参照我的codepen chrome支持最好 其他基本不支持
 
 通过不同浏览器对事件的支持情况对事件进行处理
+addEventListener第三个参数useCapture表示事件的响应顺序true=>userCapture, false=>bubbing
 例:
 `if (typeof window.addEventListener != 'undefined') {`
 `    window.addEventListener('message', handleMessage, false);`

@@ -6,3 +6,5 @@ categories: blog
 tags: '新技术'
 ---
 
+[使用consolelog打印动画](https://juejin.im/post/5afafb0c6fb9a07ac65331fe)
+[amd/cmd自定义全局console](https://github.com/klauscfhq/signale/blob/master/readme.md)
