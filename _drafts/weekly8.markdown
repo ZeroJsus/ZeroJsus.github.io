@@ -27,4 +27,5 @@ router.addRoutes([router_item]) // 在Vue中向路由组件动态添加路由 �
 `const csvFileLine = '1997,John Doe,US,john@doe.com,New York';`
 `const { 2: country, 4: state } = csvFileLine.split(',');`
 
-web notification技术
+web notification技术 注意在非安全域名下不能长期调用
+web socket
