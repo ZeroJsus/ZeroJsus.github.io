@@ -40,4 +40,15 @@ react+redux -->聊天室
 
 网站监测工具 --> sonarwhal  精选免费文本网站 --> https://love2.io/
 
-自下而上的编程?
+自下而上的编程
+
+
+1 / 0; //  Infinity
+-1 / 0; // -Infinity
+检测使用isFinite()
+
+apply的第一个属性是被当做this来看待的对象 --> call/apply/bind
+
+call可以传入若干个参数列表 apply可以传入一个参数数组 bind生成一个更换this的新函数
+
+[重新介绍JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
