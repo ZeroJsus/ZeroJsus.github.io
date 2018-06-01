@@ -6,4 +6,5 @@ categories: blog
 tags: '知识周报'
 ---
 
-注意webpack分文件打包的问题 
+注意webpack分文件打包的问题
+能不能够使用route路由表来动态控制权限跳转以及生成权限列表
