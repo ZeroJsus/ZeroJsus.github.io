@@ -10,8 +10,6 @@ window.print() --> 此方法调用每个浏览器的打印模式 @media print{ /
 
 URL.createObjectURL --> 将blob数据转换成一个url连接(和canvas的toDataURL方法类似) 后者是转base64
 
-ESLint 学习规范我的代码结构
-
 router.addRoutes([router_item]) // 在Vue中向路由组件动态添加路由 此路由不会更新至 router.options.routes中 跳转只能使用push来进行跳转 浏览器的访问会无效
 
 递归算法纳入6月议程 __通过递归扁平化多维度数组__
@@ -28,7 +26,7 @@ router.addRoutes([router_item]) // 在Vue中向路由组件动态添加路由 �
 `const { 2: country, 4: state } = csvFileLine.split(',');`
 
 web notification技术 注意在非安全域名下不能长期调用 
-web socket
+web socket --> 配合node中的socket.io实现
 
 FireBase --> 云端数据库
 

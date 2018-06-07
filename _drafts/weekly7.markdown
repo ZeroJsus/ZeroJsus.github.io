@@ -9,7 +9,7 @@ tags: '知识周报'
 提升JS方法的技巧 (对Iterator)
 1.  扩展运算操作符(...)
 2.  对iterator对象使用for of循环进行遍历
-3.  arr.includes(key) //查询对应的arr中是否存在指定的值 存在则返回true
+3.  arr.includes(key) //查询对应的arr中是否存在指定的值 存在则返回true IE完全不支持
 4.  arr.some(callback) //查询数组中是否有满足callback函数的值 => Boolean
 5.  arr.every(callback) //查询数组中是否全部值都满足callback函数 => Boolean
 6.  arr.filter(callback) //处理数组使数组只返回满足callback条件的内容

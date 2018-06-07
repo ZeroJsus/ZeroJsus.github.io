@@ -19,3 +19,5 @@ postcss-viewport-units 计算viewport的单位（会导致页面样式出错）
 viewport-units-buggyfill viewport polyfill （不使用script引用的话会导致vue中子模块中的背景图片加载失败）
 注: 所有字体需要设置字体大小不然会出现字体过小的情况
 vm以及rem测试　在viewport兼容性高的移动端浏览器下使用vw　在兼容不高的地方使用rem
+
+[参考文档](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)

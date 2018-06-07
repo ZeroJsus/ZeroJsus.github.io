@@ -19,7 +19,7 @@ ci: Gitlab Docker+Drone
 
 jQury中的移动端适配组件库 sui build with taobao
 
-page Visibly scrollIntoView--> 是否还存在
+page Visibly scrollIntoView目前多浏览器支持基本功能实现效果与a标签锚点大部分相同，但是在document足够高的情况下元素可以选择是在页面顶部展示还是在页面底部进行展示
 
 document事件visibilitychange用于监听当前浏览器是不是打开的这个标签，
 document.hidden 用于判断当前页面是不是浏览器中正在显示的页面    
