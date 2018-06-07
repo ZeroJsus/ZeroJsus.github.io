@@ -20,4 +20,6 @@ viewport-units-buggyfill viewport polyfill （不使用script引用的话会导�
 注: 所有字体需要设置字体大小不然会出现字体过小的情况
 vm以及rem测试　在viewport兼容性高的移动端浏览器下使用vw　在兼容不高的地方使用rem
 
+让vue在多个页面中可用 1.不用router的history模式 2.配置打包文件的路径assetPublicPath为对应的路径
+
 [参考文档](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
