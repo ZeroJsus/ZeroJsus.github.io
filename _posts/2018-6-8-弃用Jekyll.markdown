@@ -5,3 +5,5 @@ date: 2018-6-8 23:00:00 +0800
 categories: blog
 tags: '博客更新'
 ---
+
+使用nuxt静态化构建的博客

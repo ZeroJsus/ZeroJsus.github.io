@@ -1,0 +1,22 @@
+---
+layout: post
+title: '复习css3'
+date: 2018-6-10 23:00:00 +0800
+categories: blog
+tags: '迭代'
+---
+
+text-shadow 可以生成多个阴影
+box-shadow inset/outset 两种阴影类型
+
+inline-table 将table变成inline的样式
+
+text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden
+
+background-image/repeat/position 可以同时指定多个背景图片
+
+rgb/rgba
+
+hsl/hsla H(色调) S(饱和度) L(亮度) A(alpha通道值)
+
+自动拉伸元素 overflow: auto; resize: both;

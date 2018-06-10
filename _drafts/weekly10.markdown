@@ -39,4 +39,4 @@ pre与code标签的相同与差异
 
 [lanhuapp.com 支持sketch和ps 自动导入设计图进行标注](https://lanhuapp.com/?home)
 
-html5权威指南的样式结构中是否存在eq
+html5权威指南的样式结构中是否存在 不存在 记录nth-of-type以及nth-last-type的用法
