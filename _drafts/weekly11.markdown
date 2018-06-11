@@ -28,3 +28,6 @@ q标记用在p元素中 用于表示此段文本时一段短引用
 
 [vscode插件开发](https://www.jianshu.com/p/520c575e91c3)
 
+[浏览器标识](https://github.com/Valve/fingerprintjs2)
+
+css世界 页数33
