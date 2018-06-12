@@ -24,10 +24,14 @@ document.this --> 在对应js函数的开头位置 进行使用才能进行标�
 
 q标记用在p元素中 用于表示此段文本时一段短引用
 
-当前复习到达多列(2018-6-11) 笔记参考codepen
+当前复习到达打印(2018-6-12) 笔记参考codepen
 
 [vscode插件开发](https://www.jianshu.com/p/520c575e91c3)
 
 [浏览器标识](https://github.com/Valve/fingerprintjs2)
 
-css世界 页数33
+css世界 页数57
+
+pc端单独jq页面的优化 1200 + client.width count 页面的视距比
+
+shrink-to-fit // 自适应宽度

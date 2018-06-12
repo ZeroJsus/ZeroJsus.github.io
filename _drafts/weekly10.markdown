@@ -23,7 +23,7 @@ beforeunload 当前所有浏览器已经移除了自定义提示文本的功能 
 思考: 使用什么技术来完美抓取在页面关闭时候的事件
 
 对webpack的理解还不够深入
-webpack loader插件进阶 --> script-loader可以直接挂载所有的js文件(非commomJS引入的模式) file-loader可以直接获得要挂载文件的路径(用于需要引入对应路径文件的情况 比如new Worker)
+webpack loader插件进阶 --> script-loader可以直接挂载所有的js文件(将其内容注入到当前整个模块环境中)(非commomJS引入的模式) file-loader可以直接获得要挂载文件的路径(用于需要引入对应路径文件的情况 比如new Worker)
 
 webpack --> require.ensure([orderlist],fn)
 
