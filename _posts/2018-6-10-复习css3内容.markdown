@@ -9,7 +9,7 @@ tags: '迭代'
 text-shadow 可以生成多个阴影
 box-shadow inset/outset 两种阴影类型
 
-text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden
+text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden letter-spacing/word-spacing --> 类似功能不同的作用对象
 
 background-image/repeat/position 可以同时指定多个背景图片
 
@@ -18,3 +18,24 @@ rgb/rgba
 hsl/hsla H(色调) S(饱和度) L(亮度) A(alpha通道值)
 
 自动拉伸元素 overflow: auto; resize: both; --> 会不会破坏流
+
+打印中@page属性 检索或指定显示对应容器时使用的页面类型-->不常用
+
+orientation：portrait | landscape --> media query中针对设备是水平还是竖直放置定义不同的样式
+
+@support --> 用于检测浏览器中是否支持某条css样式规则
+
+
+c3中的分辨率 布局 以及 频率 时间 角度 仅定义了对应类型的参数值
+
+hsl中亮度 如果为最高 会覆盖其他颜色 使得页面只有白色页面
+
+currentColor --> 使用在属性值中 当前元素中所有具备currentColor的元素 其元素的色值 都会继承自当前元素中的color值　作为一个可以被替换的参数值使用
+
+unset --> 参数值的作用是擦除当前属性的对应属性值 使其恢复到该属性值的默认属性
+
+使用attr()　IE8+兼容　--> 直接获取到对应标签中的属性名称的属性值　可以直接更换对应的content值　仅在对应标签是双标签闭合的时候生效(主要是看对应的元素是不是 具有after和before这两个伪类元素的设定)　
+
+css hack中　应该使用混合以及条件单独配置　其中的条件选择　同时可以对资源文件的加载生效
+
+flex以及column 分别功能整理
