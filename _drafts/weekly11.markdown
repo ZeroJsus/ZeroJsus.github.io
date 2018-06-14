@@ -16,7 +16,8 @@ c3 css世界 以及 css魔法复习
                     -->(使用flexible 非sui自带)-->参考px 转换是1rem = 设计图宽度px/10 _推荐_
                     -->不使用类库(手动计算 vw/vw比率) _推荐_
 3.  使用flexible 并不完美因为不同的设备计算出来的font-size并不完全相同
-4.  android4.4以下版本 还是使用flexible+postcss2rem
+4.  android4.4以下版本 还是使用flexible+postcss2rem 
+5.  使用vw vh头图可能会与上下左右的页面有1px的偏差(造成图片偏差的原因 应该为ui给的图片 与设计图上的图片 比例不相同)
 
 lib-flexible 源码解析?
 
@@ -30,8 +31,16 @@ q标记用在p元素中 用于表示此段文本时一段短引用
 
 [浏览器标识](https://github.com/Valve/fingerprintjs2)
 
-css世界 页数57
+css世界 页数88
 
 pc端单独jq页面的优化 1200 + client.width count 页面的视距比
 
 shrink-to-fit // 自适应宽度
+
+移动端ios的最小字号1px android端的最小字号是8px
+
+[Web Component自定义元素](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/customElements) --> 是不是可以在不用框架的情况下 自定义元素的内容
+
+为什么我们使用前端框架-->不是因为框架的易用以及框架的打包之类的功能, 而是因为UI状态的不好控制
+
+[serviceworker demo](https://github.com/mdn/sw-test)

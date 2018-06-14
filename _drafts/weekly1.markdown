@@ -23,4 +23,4 @@ bootstrap table 快速构建分页表格带查询等功能的插件
 
 现在前端VR开发已经 趋于成熟
 
-WebGL WebWorker(已经实现) WebRTC(不常用，视频直播等网站) ServerWorker Promise(已实现)是18年主要要学习的技术
+WebGL WebWorker(已经实现) WebRTC(不常用，视频直播等网站) ServerWorker Promise(已实现)是18年主要要学习的技术 WebComponent

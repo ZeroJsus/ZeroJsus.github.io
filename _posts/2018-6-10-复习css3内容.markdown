@@ -39,3 +39,15 @@ unset --> 参数值的作用是擦除当前属性的对应属性值 使其恢复
 css hack中　应该使用混合以及条件单独配置　其中的条件选择　同时可以对资源文件的加载生效
 
 flex以及column 分别功能整理
+
+控制元素的content替换方式 object-fit --> 定义一个元素占用其他元素填充对应的content-box时候所展示的尺寸的计算方式(并非这个盒子的尺寸而是这个盒子中替换内容的尺寸) 类似背景图片相对于背景中的background-size值 object-position相当于background-position一样 可以设置元素在放入content中之后 在其中的相对位置
+
+清除浏览中特定的img占位符 使用visiblity:hidden 将当前图片进行隐藏,然后通过after和before两个伪类对 图片的内容进行占位显示
+
+可以使用雪碧图来进行 数字转换的动态效果
+[使用object-fit来实现的雪碧图效果](http://www.zhangxinxu.com/study/201503/css3-object-position-object-fit-img-sprites.html)
+[兼容至IE7的两端对齐](http://demo.cssworld.cn/4/1-7.php)
+
+vertical-align 可以使用数值或者百分比作为参数 使用数值之后可以应用动画效果
+
+通过对点元素进行<dot> --> 是否为5.1规范? 设置content中有多个点元素 每个单行展示的点元素之间使用\A进行分割 需要设定white-space: pre-warp(将content格式化之后 如果内容超出边界内容则进行换行) 动画上下移动 来进行实现加载中的点 依次展示的动态效果 --> 加载中. .. ... CR-->回车 LF-->换行 --> \r 与 \n 的区别 使用::before就是为了 让每一个点能够对齐
