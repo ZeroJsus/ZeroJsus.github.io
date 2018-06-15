@@ -44,3 +44,5 @@ shrink-to-fit // 自适应宽度
 为什么我们使用前端框架-->不是因为框架的易用以及框架的打包之类的功能, 而是因为UI状态的不好控制
 
 [serviceworker demo](https://github.com/mdn/sw-test)
+
+pwa技术 --> 目前支持很尴尬 未来5年替代 electron技术
