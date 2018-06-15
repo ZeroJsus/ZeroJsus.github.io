@@ -7,18 +7,18 @@
   
   <title>webWorker入门 | 荣鑫的开发笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行 一定要理解webpack对于vue是怎样的存在 在vue中要引用一些文件的绝对路径 比如在vue中使用webworker 要使用file-loader来加载文件到webpack中[rules配置才行–&amp;gt;因为如果使用内联加载其中的es6内容会被全局的babel加载一个对于es6方法的兼容配置文件的加载但是在浏览器的后台进程当中,后台进">
+  <meta name="description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行">
 <meta name="keywords" content="迭代">
 <meta property="og:type" content="article">
 <meta property="og:title" content="webWorker入门">
 <meta property="og:url" content="ZeroJsus.github.io/2018/06/07/webworker入门/index.html">
 <meta property="og:site_name" content="荣鑫的开发笔记">
-<meta property="og:description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行 一定要理解webpack对于vue是怎样的存在 在vue中要引用一些文件的绝对路径 比如在vue中使用webworker 要使用file-loader来加载文件到webpack中[rules配置才行–&amp;gt;因为如果使用内联加载其中的es6内容会被全局的babel加载一个对于es6方法的兼容配置文件的加载但是在浏览器的后台进程当中,后台进">
+<meta property="og:description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-06-15T08:47:38.156Z">
+<meta property="og:updated_time" content="2018-06-15T09:11:19.924Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="webWorker入门">
-<meta name="twitter:description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行 一定要理解webpack对于vue是怎样的存在 在vue中要引用一些文件的绝对路径 比如在vue中使用webworker 要使用file-loader来加载文件到webpack中[rules配置才行–&amp;gt;因为如果使用内联加载其中的es6内容会被全局的babel加载一个对于es6方法的兼容配置文件的加载但是在浏览器的后台进程当中,后台进">
+<meta name="twitter:description" content="webWorker是将脚本代码放置与浏览器后台线程进行执行">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -94,13 +94,14 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>webWorker是将脚本代码放置与浏览器后台线程进行执行</p>
+<a id="more"></a>
 <p>一定要理解webpack对于vue是怎样的存在 在vue中要引用一些文件的绝对路径 比如在vue中使用webworker 要使用file-loader来加载文件到webpack中[rules配置才行–&gt;因为如果使用内联加载其中的es6内容会被全局的babel加载一个对于es6方法的兼容配置文件的加载但是在浏览器的后台进程当中,后台进程是浏览器本身编译器 不具备webpack中的cmd自动加载功能会导致import/require报错], 之后导入对应路径的文件获取一个路径地址 这个地址 就是此文件对应的绝对路径<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers" target="_blank" rel="noopener">webworker</a></p>
 <p>webworker对象类型是一个MessageEvent的类型，其中的data为从客户端中通过postMessage到worker中的数据</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/07/webworker入门/" data-id="cjifqsiu3002jvcnk09sifd51" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/07/webworker入门/" data-id="cjifrbtmq002j9snk798ncfls" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
