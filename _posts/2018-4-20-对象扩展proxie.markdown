@@ -1,0 +1,10 @@
+---
+layout: post
+title: '使用proxies扩展基本对象'
+date: 2018-4-20 23:00:00 +0800
+categories: blog
+tags: '趋势'
+---
+
+object = new proxy(oldobject,handle) 创建一个扩展的proxies对象 handle进行对象处理
+handle 中可以对对象本身的 set get apply construct 等方法进行定义 相当于完全重构了一个class

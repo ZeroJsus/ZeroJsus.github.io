@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'html5.2新特征'
+date: 2018-1-16 12:00:00 +0800
+categories: blog
+tags: '趋势'
+---
+
+一、新增标签`<Dialog>`以及用于支付的iframe属性allowpaymentrequest
+    ![Dialog样式]('./../images/posts/18-1-16-12-00')
+    <!-- open属性是用来打开dialog对话框的 -->
+    `<dialog open>`
+        `<h2>Dialog Title</h2>`
+        `<P>Dialog Content</P>`
+    `</dialog>`
+    `<iframe allowpaymentrequest></iframe>`
+
+二、细节改进
+
+    2.1 mian标签一个页面可以使用多个，但是建议只有一个mian标签做显示，其余main标签在不需要的时候使用hidden属性进行隐藏。
+
+    2.2style标签不再只能在head中使用，在body中同时也可以使用但是推荐在head中使用style标签。
+
+    2.3表单标签fieldset中的右上角标题legend中可以使用header类的标签。
+
+    2.4未来p标签中不再支持使用inline-block/inline-table/float以及postion属性。
+
+    2.5Doctype属性中的以下属性未来将被放弃支持
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
