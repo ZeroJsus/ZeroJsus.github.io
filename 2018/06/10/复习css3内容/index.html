@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>复习css3 | ZeroJsusBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="text-shadow 可以生成多个阴影box-shadow inset/outset 两种阴影类型 text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden letter-spacing/word-spacing –&amp;gt; 类似功能不同的作用对象 background-image/repeat">
+<meta name="keywords" content="迭代">
+<meta property="og:type" content="article">
+<meta property="og:title" content="复习css3">
+<meta property="og:url" content="ZeroJsus.github.io/2018/06/10/复习css3内容/index.html">
+<meta property="og:site_name" content="ZeroJsusBlog">
+<meta property="og:description" content="text-shadow 可以生成多个阴影box-shadow inset/outset 两种阴影类型 text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden letter-spacing/word-spacing –&amp;gt; 类似功能不同的作用对象 background-image/repeat">
+<meta property="og:locale" content="CN">
+<meta property="og:updated_time" content="2018-06-15T02:49:57.443Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="复习css3">
+<meta name="twitter:description" content="text-shadow 可以生成多个阴影box-shadow inset/outset 两种阴影类型 text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden letter-spacing/word-spacing –&amp;gt; 类似功能不同的作用对象 background-image/repeat">
+  
+    <link rel="alternate" href="/atom.xml" title="ZeroJsusBlog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">ZeroJsusBlog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">ZeroJsus的个人博客笔记</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">首页</a>
+        
+          <a class="main-nav-link" href="/archives/">杂文</a>
+        
+          <a class="main-nav-link" href="/weekly/">周报</a>
+        
+          <a class="main-nav-link" href="/aboutme/">关于我</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="ZeroJsus.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-复习css3内容" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/06/10/复习css3内容/" class="article-date">
+  <time datetime="2018-06-10T15:00:00.000Z" itemprop="datePublished">2018-06-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      复习css3
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>text-shadow 可以生成多个阴影<br>box-shadow inset/outset 两种阴影类型</p>
+<p>text-overflow 设置框内水平方向的文本溢出显示 在white-space: nowarp 不能换行时最有效 参数有 ellipsis/hidden letter-spacing/word-spacing –&gt; 类似功能不同的作用对象</p>
+<p>background-image/repeat/position 可以同时指定多个背景图片</p>
+<p>rgb/rgba</p>
+<p>hsl/hsla H(色调) S(饱和度) L(亮度) A(alpha通道值)</p>
+<p>自动拉伸元素 overflow: auto; resize: both; –&gt; 会不会破坏流</p>
+<p>打印中@page属性 检索或指定显示对应容器时使用的页面类型–&gt;不常用</p>
+<p>orientation：portrait | landscape –&gt; media query中针对设备是水平还是竖直放置定义不同的样式</p>
+<p>@support –&gt; 用于检测浏览器中是否支持某条css样式规则</p>
+<p>c3中的分辨率 布局 以及 频率 时间 角度 仅定义了对应类型的参数值</p>
+<p>hsl中亮度 如果为最高 会覆盖其他颜色 使得页面只有白色页面</p>
+<p>currentColor –&gt; 使用在属性值中 当前元素中所有具备currentColor的元素 其元素的色值 都会继承自当前元素中的color值　作为一个可以被替换的参数值使用</p>
+<p>unset –&gt; 参数值的作用是擦除当前属性的对应属性值 使其恢复到该属性值的默认属性</p>
+<p>使用attr()　IE8+兼容　–&gt; 直接获取到对应标签中的属性名称的属性值　可以直接更换对应的content值　仅在对应标签是双标签闭合的时候生效(主要是看对应的元素是不是 具有after和before这两个伪类元素的设定)　</p>
+<p>css hack中　应该使用混合以及条件单独配置　其中的条件选择　同时可以对资源文件的加载生效</p>
+<p>flex以及column 分别功能整理</p>
+<p>控制元素的content替换方式 object-fit –&gt; 定义一个元素占用其他元素填充对应的content-box时候所展示的尺寸的计算方式(并非这个盒子的尺寸而是这个盒子中替换内容的尺寸) 类似背景图片相对于背景中的background-size值 object-position相当于background-position一样 可以设置元素在放入content中之后 在其中的相对位置</p>
+<p>清除浏览中特定的img占位符 使用visiblity:hidden 将当前图片进行隐藏,然后通过after和before两个伪类对 图片的内容进行占位显示</p>
+<p>可以使用雪碧图来进行 数字转换的动态效果<br><a href="http://www.zhangxinxu.com/study/201503/css3-object-position-object-fit-img-sprites.html" target="_blank" rel="noopener">使用object-fit来实现的雪碧图效果</a><br><a href="http://demo.cssworld.cn/4/1-7.php" target="_blank" rel="noopener">兼容至IE7的两端对齐</a></p>
+<p>vertical-align 可以使用数值或者百分比作为参数 使用数值之后可以应用动画效果</p>
+<p>通过对点元素进行<dot> –&gt; 是否为5.1规范? 设置content中有多个点元素 每个单行展示的点元素之间使用\A进行分割 需要设定white-space: pre-warp(将content格式化之后 如果内容超出边界内容则进行换行) 动画上下移动 来进行实现加载中的点 依次展示的动态效果 –&gt; 加载中. .. … CR–&gt;回车 LF–&gt;换行 –&gt; \r 与 \n 的区别 使用::before就是为了 让每一个点能够对齐</dot></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="ZeroJsus.github.io/2018/06/10/复习css3内容/" data-id="cjiffswgv0039z0nkma10uc24" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/06/14/serviceWorker/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Service Worker
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/06/08/弃用Jekyll/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">弃用Jekyll</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blog/">blog</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/">Python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客更新/">博客更新</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/周记/">周记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/应用框架/">应用框架</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/技术/">技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新技术/">新技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/框架/">框架</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/趋势/">趋势</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/迭代/">迭代</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/迭代技术/">迭代技术</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/博客更新/" style="font-size: 10px;">博客更新</a> <a href="/tags/周记/" style="font-size: 10px;">周记</a> <a href="/tags/应用框架/" style="font-size: 13.33px;">应用框架</a> <a href="/tags/技术/" style="font-size: 10px;">技术</a> <a href="/tags/新技术/" style="font-size: 13.33px;">新技术</a> <a href="/tags/框架/" style="font-size: 10px;">框架</a> <a href="/tags/趋势/" style="font-size: 20px;">趋势</a> <a href="/tags/迭代/" style="font-size: 16.67px;">迭代</a> <a href="/tags/迭代技术/" style="font-size: 10px;">迭代技术</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li></ul>
+    </div>
+    <h1>你好我是文章页面</h1>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/06/15/最新的内容整理/">最新的内容整理</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/14/serviceWorker/">Service Worker</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/10/复习css3内容/">复习css3</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/08/弃用Jekyll/">弃用Jekyll</a>
+          </li>
+        
+          <li>
+            <a href="/2018/06/07/webworker入门/">webWorker入门</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 ZeroJsus<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives/" class="mobile-nav-link">杂文</a>
+  
+    <a href="/weekly/" class="mobile-nav-link">周报</a>
+  
+    <a href="/aboutme/" class="mobile-nav-link">关于我</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
