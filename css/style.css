@@ -352,18 +352,6 @@ body {
   background-image: -moz-linear-gradient(left, #f00, #00f);
   background-image: -ms-linear-gradient(left, #f00, #00f);
   background-image: linear-gradient(to right, #f00, #00f);
-  background-image: -webkit--webkit-linear-gradient(left, #f00, #00f);
-  background-image: -webkit--moz-linear-gradient(left, #f00, #00f);
-  background-image: -webkit--ms-linear-gradient(left, #f00, #00f);
-  background-image: -webkit-linear-gradient(to right, #f00, #00f);
-  background-image: -moz--webkit-linear-gradient(left, #f00, #00f);
-  background-image: -moz--moz-linear-gradient(left, #f00, #00f);
-  background-image: -moz--ms-linear-gradient(left, #f00, #00f);
-  background-image: -moz-linear-gradient(to right, #f00, #00f);
-  background-image: -o--webkit-linear-gradient(left, #f00, #00f);
-  background-image: -o--moz-linear-gradient(left, #f00, #00f);
-  background-image: -o--ms-linear-gradient(left, #f00, #00f);
-  background-image: -o-linear-gradient(to right, #f00, #00f);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
