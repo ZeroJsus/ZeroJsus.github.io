@@ -1,0 +1,57 @@
+body,
+html {
+  background-image: url("./sheep.jpg");
+  background-size: 300px 300px;
+  background-repeat: repeat;
+  font-size: 20px;
+}
+div.container {
+  position: relative;
+  display: flex;
+  min-width: 1200px;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.9);
+  box-shadow: 0 0 100px #000;
+  justify-content: center;
+  align-items: center;
+}
+div.container button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 140px;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 8px;
+  background-color: #87cefa;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+}
+div.container div.left {
+  flex: 4;
+}
+div.container div.left code,
+div.container div.left p {
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+div.container div.right {
+  flex: 2;
+}
+div.container div.right h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+div.container div.right ul {
+  text-align: left;
+  list-style: none;
+}
+div.container div.right ul li {
+  margin-top: 10px;
+  list-style: none;
+}
