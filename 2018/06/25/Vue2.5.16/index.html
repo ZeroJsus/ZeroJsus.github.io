@@ -6,22 +6,20 @@
   
 
   
-  <title>Service Worker | 荣鑫的开发笔记</title>
+  <title>vue2.5.16源码解析01 | 荣鑫的开发笔记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="// PWA 必须serviceworker 至少每24小时会进行一次更新">
-<meta name="keywords" content="新技术">
+  <meta name="description" content="类型检测 typeof 不能检测出详细的Object类型中具体的分类 Object.prototype.toString()–&amp;gt;可以根据每一个不同的数据类型生成对应数据类型的状态字符串 通过slice(8,-1) 对生成的字符串进行处理可以获取typeof 对应的参数值所对应的数据类型 之所以要用Object是因为所有的类型的父类型都为Object 其他原始类型中的数据类型中的toStri">
+<meta name="keywords" content="迭代">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Service Worker">
-<meta property="og:url" content="ZeroJsus.github.io/2018/06/14/serviceWorker/index.html">
+<meta property="og:title" content="vue2.5.16源码解析01">
+<meta property="og:url" content="ZeroJsus.github.io/2018/06/25/Vue2.5.16/index.html">
 <meta property="og:site_name" content="荣鑫的开发笔记">
-<meta property="og:description" content="// PWA 必须serviceworker 至少每24小时会进行一次更新">
+<meta property="og:description" content="类型检测 typeof 不能检测出详细的Object类型中具体的分类 Object.prototype.toString()–&amp;gt;可以根据每一个不同的数据类型生成对应数据类型的状态字符串 通过slice(8,-1) 对生成的字符串进行处理可以获取typeof 对应的参数值所对应的数据类型 之所以要用Object是因为所有的类型的父类型都为Object 其他原始类型中的数据类型中的toStri">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="/assets/images/timg.jpg">
-<meta property="og:updated_time" content="2018-06-15T15:00:00.000Z">
+<meta property="og:updated_time" content="2018-06-25T10:43:58.303Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Service Worker">
-<meta name="twitter:description" content="// PWA 必须serviceworker 至少每24小时会进行一次更新">
-<meta name="twitter:image" content="/assets/images/timg.jpg">
+<meta name="twitter:title" content="vue2.5.16源码解析01">
+<meta name="twitter:description" content="类型检测 typeof 不能检测出详细的Object类型中具体的分类 Object.prototype.toString()–&amp;gt;可以根据每一个不同的数据类型生成对应数据类型的状态字符串 通过slice(8,-1) 对生成的字符串进行处理可以获取typeof 对应的参数值所对应的数据类型 之所以要用Object是因为所有的类型的父类型都为Object 其他原始类型中的数据类型中的toStri">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -79,10 +77,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-serviceWorker" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Vue2.5.16" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/06/14/serviceWorker/" class="article-date">
-  <time datetime="2018-06-14T15:00:00.000Z" itemprop="datePublished">2018-06-14</time>
+    <a href="/2018/06/25/Vue2.5.16/" class="article-date">
+  <time datetime="2018-06-25T15:00:00.000Z" itemprop="datePublished">2018-06-25</time>
 </a>
     
   <div class="article-category">
@@ -97,7 +95,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Service Worker
+      vue2.5.16源码解析01
     </h1>
   
 
@@ -105,24 +103,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>// PWA 必须<br>serviceworker 至少每24小时会进行一次更新</p>
-<a id="more"></a>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-<figure class="highlight javascript"><figcaption><span>helloWorld www.baidu.com 这是百度的地址</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">'hello world'</span>)</span><br></pre></td></tr></table></figure>
-<p><img src="/assets/images/timg.jpg" alt="百度图片"></p>
-<figure class="highlight javascript"><figcaption><span>helloWorld /assets/codelist/helloWorld.js helloWorld</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">'hello world'</span>)</span><br></pre></td></tr></table></figure>
-<pre>
-
-</pre>
+        <ol>
+<li><p>类型检测 typeof 不能检测出详细的Object类型中具体的分类 Object.prototype.toString()–&gt;可以根据每一个不同的数据类型生成对应数据类型的状态字符串 通过slice(8,-1) 对生成的字符串进行处理可以获取typeof 对应的参数值所对应的数据类型 之所以要用Object是因为所有的类型的父类型都为Object 其他原始类型中的数据类型中的toString已经被 对应的数据类型的原型链上的数据所改写 若使用delete方法删除了对应原型链上的重写方法 则可以让复写被替换</p>
+</li>
+<li><p>一个工具函数应该从最基本的状态类型检测开始编写</p>
+</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/14/serviceWorker/" data-id="cjj5cz64m003vu0nkohypuyi6" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/25/Vue2.5.16/" data-id="cjj5cz6330032u0nkgazn0hr8" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新技术/">新技术</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
 
     </footer>
   </div>
@@ -130,19 +124,19 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/06/14/vuecli3.0/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/07/13/技术栈升级BABYLONJS技术尝试/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          vuecli3.0 ui模式
+          技术栈升级BABYLONJS尝试
         
       </div>
     </a>
   
   
-    <a href="/2018/06/10/复习css3内容/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2018/06/14/vuecli3.0/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">复习css3</div>
+      <div class="article-nav-title">vuecli3.0 ui模式</div>
     </a>
   
 </nav>

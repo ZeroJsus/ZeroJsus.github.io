@@ -1,3 +1,4 @@
+// 此处存放原始js
 (function($){
   // Search
   var $searchWrap = $('#search-form-wrap'),
