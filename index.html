@@ -80,6 +80,34 @@
 <!-- 这是文章的首页 -->
 
   
+    <article id="post-2018-8-16-ubuntu中安装nodejs" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/08/16/2018-8-16-ubuntu中安装nodejs/" class="article-date">
+  <time datetime="2018-08-16T03:23:15.356Z" itemprop="datePublished">2018-08-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="在ubuntu中安装nodejs-并使用n进行版本管理"><a href="#在ubuntu中安装nodejs-并使用n进行版本管理" class="headerlink" title="在ubuntu中安装nodejs 并使用n进行版本管理"></a>在ubuntu中安装nodejs 并使用n进行版本管理</h1><h2 id="更新ubuntu软件源"><a href="#更新ubuntu软件源" class="headerlink" title="更新ubuntu软件源"></a>更新ubuntu软件源</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update #更新本地软件源</span><br><span class="line">sudo apt-get install -y python-software-properties software-properties-common #安装两个公共软件包</span><br><span class="line">sudo add-apt-repository ppa:chris-lea/node.js #安装ppa源 ppa：一个个人软件包集合</span><br><span class="line">sudo apt-get update #安装依赖后重新更新软件包</span><br></pre></td></tr></table></figure>
+<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nodejs</span><br><span class="line">sudo apt install nodejs-legacy #这里的apt是新版本系统的命令 以后老版本的命令apt-get将会被取代</span><br><span class="line">sudo apt install npm</span><br></pre></td></tr></table></figure>
+<h2 id="替换npm镜像源地址"><a href="#替换npm镜像源地址" class="headerlink" title="替换npm镜像源地址"></a>替换npm镜像源地址</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">sudo npm config set registry https://registry.npm.taobao.org</span><br><span class="line">sudo npm list #查看npm配置信息</span><br><span class="line"></span><br><span class="line">sudo npm install n -g #使用n模块进行nodejs版本管理</span><br><span class="line">sudo n stable #使用n安装nodejs最新标准版本</span><br><span class="line">sudo node -v #查看node版本安装成功</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="ZeroJsus.github.io/2018/08/16/2018-8-16-ubuntu中安装nodejs/" data-id="cjkw0lq1g003mlsnkt88liizt" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-技术栈升级BABYLONJS技术尝试" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/07/13/技术栈升级BABYLONJS技术尝试/" class="article-date">
@@ -111,7 +139,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/07/13/技术栈升级BABYLONJS技术尝试/" data-id="cjk0t1cw30003egnki5lpp898" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/07/13/技术栈升级BABYLONJS技术尝试/" data-id="cjkw0lq1c003jlsnkpr5z0sl3" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
@@ -159,7 +187,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/25/Vue2.5.16/" data-id="cjj5cz6330032u0nkgazn0hr8" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/25/Vue2.5.16/" data-id="cjkw0lq1z003wlsnkidqsv57l" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
@@ -202,7 +230,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/14/vuecli3.0/" data-id="cjj5cz62u002ru0nklygrugls" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/14/vuecli3.0/" data-id="cjkw0lq0y003dlsnkpsitjdzy" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
@@ -249,7 +277,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/14/serviceWorker/" data-id="cjj5cz64m003vu0nkohypuyi6" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/14/serviceWorker/" data-id="cjkw0lq1v003slsnkdvsx8gdp" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新技术/">新技术</a></li></ul>
@@ -298,7 +326,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/10/复习css3内容/" data-id="cjj5cz630002yu0nk73jotv1i" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/10/复习css3内容/" data-id="cjkw0lq0q0039lsnknv1rq3q1" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
@@ -342,7 +370,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/08/弃用Jekyll/" data-id="cjj5cz62q002ku0nkah1q9c17" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/08/弃用Jekyll/" data-id="cjkw0lq0l0032lsnkjkbtmmp1" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客更新/">博客更新</a></li></ul>
@@ -389,7 +417,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/06/07/webworker入门/" data-id="cjj5cz6340035u0nk00gvf5fo" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/06/07/webworker入门/" data-id="cjkw0lq13003glsnkb5wwnjgv" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
@@ -432,7 +460,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/05/17/console进阶/" data-id="cjj5cz62m002du0nkk1qtjq05" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/05/17/console进阶/" data-id="cjkw0lq0g002zlsnkyb8l1drq" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新技术/">新技术</a></li></ul>
@@ -479,57 +507,10 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/05/11/钉钉开发笔记/" data-id="cjj5cz62t002ou0nkg4uhwz0i" class="article-share-link">Share</a>
+      <a data-url="ZeroJsus.github.io/2018/05/11/钉钉开发笔记/" data-id="cjkw0lq1s003plsnk21kn1pzo" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新技术/">新技术</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-vuecli-webpack配置解析-一" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/03/vuecli-webpack配置解析-一/" class="article-date">
-  <time datetime="2018-05-03T15:00:00.000Z" itemprop="datePublished">2018-05-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/blog/">blog</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/03/vuecli-webpack配置解析-一/">vue脚手架中的webpack配置解析</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#webpack配置解析</p>
-        
-          <p class="article-more-link">
-            <a href="/2018/05/03/vuecli-webpack配置解析-一/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="ZeroJsus.github.io/2018/05/03/vuecli-webpack配置解析-一/" data-id="cjj5cz62h0028u0nkhizs0ux4" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/迭代/">迭代</a></li></ul>
 
     </footer>
   </div>
@@ -589,7 +570,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">七月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">五月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">四月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">三月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">十一月 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">八月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">七月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">五月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">四月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">三月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">十一月 2017</a></li></ul>
     </div>
   </div>
 
@@ -600,6 +581,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/08/16/2018-8-16-ubuntu中安装nodejs/">(no title)</a>
+          </li>
         
           <li>
             <a href="/2018/07/13/技术栈升级BABYLONJS技术尝试/">技术栈升级BABYLONJS尝试</a>
@@ -615,10 +600,6 @@
         
           <li>
             <a href="/2018/06/14/serviceWorker/">Service Worker</a>
-          </li>
-        
-          <li>
-            <a href="/2018/06/10/复习css3内容/">复习css3</a>
           </li>
         
       </ul>
